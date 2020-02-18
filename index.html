@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Тестовое задание</title>
+    <link rel="stylesheet" href="./styles/index.css">
+</head>
+<body>
+    <header>
+
+    </header>
+    <main class="container">
+        <div class="block">
+            <h1>Форма ввода</h1>
+            <form novalidate class="form" name="inputNumbers">
+                <fieldset class="form__fieldset form__numbers">
+                    <div class="form__field">
+                        <input class="form__input input_numbersLength" type="number" placeholder="Введите число" />
+                    </div>
+                    <button class="form__button" type="submit">Отправить</button>
+                </fieldset>
+            </form>
+            <form novalidate class="form form_display" name="inputSymbols">
+                <fieldset class="form__fieldset form__symbol">
+                    <div class="form__field">
+                        <input class="form__input input_firstSymbol" type="text" placeholder="Введите любой символ" />
+                    </div>
+                    <div class="form__field">
+                        <input class="form__input input_secondSymbol" type="text" placeholder="Введите любой символ" />
+                    </div>
+                    <button class="form__button" type="submit">Отправить</button>
+                </fieldset>
+            </form>
+            <div class="output__random__symbols"></div>
+            <div class="output__changed__symbols"></div>
+            <div class="statistic"></div>
+            <button class="reset__button button_display" type="submit">Очистить</button>
+        </div>
+    </main>
+    <footer>
+
+    </footer>
+    <script type="text/javascript" src="./scripts/index.js"></script>
+</body>
+</html>
